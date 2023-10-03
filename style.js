@@ -5,13 +5,10 @@ function averageGrade(...grades) {
 
   
   if (average < 75) {
-    console.log(Average Grade: ${average.toFixed(2)});
     console.log('You Failed');
   } else if (average <= 100) {
-    console.log(Average Grade: ${average.toFixed(2)});
     console.log('You Passed');
   } else {
-    console.log(Average Grade: ${average.toFixed(2)});
     console.log('Invalid Input');
   }
 }
